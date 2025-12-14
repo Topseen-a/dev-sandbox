@@ -34,13 +34,6 @@ public class Balance{
             else {
                 System.out.println("Credit Limit is okay");
                 }
-
-
-
-
-
         }  
-
-
     }
 }
