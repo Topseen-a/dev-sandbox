@@ -12,7 +12,6 @@ import java.util.Scanner;
 
                 System.out.print("Enter a number: ");
                 int number = input.nextInt();
-                
                 if (number > 0){
                     positive++;
                 }
