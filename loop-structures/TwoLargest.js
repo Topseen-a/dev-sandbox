@@ -16,4 +16,4 @@ for (let count = 1; count <= 10; count++){
     }
 }
 console.log("The largest is",largest);
-console.log("The scond largest is", secondLargest)
+console.log("The scond largest is", secondLargest);
