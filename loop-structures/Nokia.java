@@ -27,13 +27,17 @@ import java.util.Scanner;
                         
                         switch (choice){
                             case 1: System.out.println("Search");
-                                    break;
+                                    System.out.println("0. Back");
+                                break;
                             case 2: System.out.println("Service Nos");
-                                    break;
+                                    System.out.println("0. Back");
+                                break;
                             case 3: System.out.println("Add name");
-                                    break;
+                                    System.out.println("0. Back");
+                                break;
                             case 4: System.out.println("Erase");
-                                    break;
+                                    System.out.println("0. Back");
+                                break;
                             case 5: {
                                     System.out.println("Options");
                                     System.out.println("1. Type of view");
@@ -45,18 +49,21 @@ import java.util.Scanner;
                                     
                                     switch (choice){
                                             case 1: System.out.println("Type of view");
-                                                    break;
+                                                    System.out.println("0. Back");
+                                                break;
                                             case 2: System.out.println("Memory status");
-                                                    break;
+                                                    System.out.println("0. Back");
+                                                break;
                                             case 0: System.out.println("Exiting");
-                                                    break;
+                                                break;
                                         }
                                     }
-                                    break;
+                                break;
                             case 6: System.out.println("Speed dials");
-                                    break;
+                                    System.out.println("0. Back");
+                                break;
                             case 0: System.out.println("Exiting");
-                                    break;
+                                break;
                         }
                         break;
 
@@ -70,10 +77,13 @@ import java.util.Scanner;
 
                         switch (choice) {
                             case 1: System.out.println("Write messages");
+                                    System.out.println("0. Back");
                                 break;
                             case 2: System.out.println("Inbox");
+                                    System.out.println("0. Back");
                                 break;
                             case 3: System.out.println("Outbox");
+                                    System.out.println("0. Back");
                                 break;
                             case 0: System.out.println("Exiting");
                                 break;
@@ -92,22 +102,15 @@ import java.util.Scanner;
 
                         switch (choice){
                             case 1: System.out.println("Missed calls");
+                                    System.out.println("0. Back");
                                 break;
                             case 2: System.out.println("Dialled numbers");
+                                    System.out.println("0. Back");
                                 break;
                             case 0: System.out.println("Exiting");
+                                    System.out.println("0. Back");
                         }
                         break;
-
             }
-
-
         }
-
-
-
-
-
-
-
     }
