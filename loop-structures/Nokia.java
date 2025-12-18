@@ -58,13 +58,46 @@ import java.util.Scanner;
                             case 0: System.out.println("Exiting");
                                     break;
                         }
+                        break;
 
                 case 2: System.out.println("1. Write messages");
                         System.out.println("2. Inbox");
                         System.out.println("3. Outbox");
+                        System.out.println("0. Back");
 
                         System.out.print("Select an option: ");
                         choice = input.nextInt();
+
+                        switch (choice) {
+                            case 1: System.out.println("Write messages");
+                                break;
+                            case 2: System.out.println("Inbox");
+                                break;
+                            case 3: System.out.println("Outbox");
+                                break;
+                            case 0: System.out.println("Exiting");
+                                break;
+                        }
+                        break;
+
+                case 3: System.out.println("Chat");
+                    break;
+                
+                case 4: System.out.println("1. Missed calls");
+                        System.out.println("2. Dialled numbers");
+                        System.out.println("0. Back");
+
+                        System.out.print("Select an option: ");
+                        choice = input.nextInt();
+
+                        switch (choice){
+                            case 1: System.out.println("Missed calls");
+                                break;
+                            case 2: System.out.println("Dialled numbers");
+                                break;
+                            case 0: System.out.println("Exiting");
+                        }
+                        break;
 
             }
 
