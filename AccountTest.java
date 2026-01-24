@@ -29,6 +29,7 @@ public class AccountTest{
         
         System.out.print("Enter amount to deposit: ");
         double depositAmount = input.nextDouble();
+
         System.out.println();
 
         accountOne.deposit(depositAmount);
